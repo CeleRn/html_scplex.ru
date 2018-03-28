@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://scplex.ru/sitemap.xml
