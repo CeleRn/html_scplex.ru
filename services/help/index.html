@@ -33,7 +33,7 @@
 <!--<meta property="og:description" content="" />-->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel='stylesheet' href='/assets/css/commons.css' />
-  <title>Компьютерный сервис</title>
+  <title>Компьютерная помощь</title>
   
   
   <script>
@@ -360,6 +360,34 @@
   <div class="header__bottom">
     <div class="container">
       
+  <div class="header__breadcrumb breadcrumb">
+    <ol class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <li class="breadcrumb__item">
+        <a href="/" class="breadcrumb__link">
+          <svg class="breadcrumb__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#home"></use></svg>
+        </a>
+      </li>
+    
+    
+      <li class="breadcrumb__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a class="breadcrumb__link" itemprop="item" href="/services/">
+          <span itemprop="name">Услуги</span></a>
+        <meta itemprop="position" content="1" />
+        
+      </li>
+    
+    
+      
+        <li class="breadcrumb__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a class="breadcrumb__link" itemprop="item" href="/services/help/index.html">
+            <span itemprop="name">Компьютерная помощь</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+      
+    
+    </ol>
+  </div>
+
       <a href="/services/order/" class="header__action-button action-button">
     <svg class="action-button__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#car"></use></svg>
     <span class="action-button__text">Вызвать мастера</span>
@@ -368,18 +396,70 @@
   </div>
 </header>
     
-  <div class="container">
 
+<div class="container">
+  
 
 <h1 class="main-title" itemprop="name">
-  Компьютерный сервис
+  Компьютерная помощь
+  
+    <small class="main-title__small">в Москве</small>
   
 </h1>
 
 
+  <div class="services-list-info">
+    <div class="services-list-info__description">
+      
+    </div>
+    <div class="services-list-info__image" data-src-img="/assets/images/upload/sections/help.jpg">
+      <link href="/assets/images/upload/sections/help.jpg" />
+    </div>
   </div>
-
-Домен - Москва
+</div>
+<div class="container">
+  <div class="subsections-list">
+    
+      <a href="/services/help/install/index.html" class="subsections-list__item subsections-list-item">
+        <img src="/assets/images/upload/sections/help_install-icon.jpg" alt="Установка программного обеспечения в Москве" class="subsections-list-item__image">
+        <h3 class="subsections-list-item__title">Установка ПО</h3>
+      </a>
+    
+      <a href="/services/help/config/index.html" class="subsections-list__item subsections-list-item">
+        <img src="/assets/images/upload/sections/help_config-icon.jpg" alt="Настройка программного обеспечения в Москве" class="subsections-list-item__image">
+        <h3 class="subsections-list-item__title">Настройка ПО</h3>
+      </a>
+    
+      <a href="/services/help/remove/index.html" class="subsections-list__item subsections-list-item">
+        <img src="/assets/images/upload/sections/help_remove-icon.jpg" alt="Удаление программного обеспечения в Москве" class="subsections-list-item__image">
+        <h3 class="subsections-list-item__title">Удаление ПО и вирусов</h3>
+      </a>
+    
+      <a href="/services/help/maintenance/index.html" class="subsections-list__item subsections-list-item">
+        <img src="/assets/images/upload/sections/help_maintenance-icon.jpg" alt="Обслуживание и профилактика компьютерной техники в Москве" class="subsections-list-item__image">
+        <h3 class="subsections-list-item__title">Обслуживание</h3>
+      </a>
+    
+      <a href="/services/help/build/index.html" class="subsections-list__item subsections-list-item">
+        <img src="/assets/images/upload/sections/help_build-icon.jpg" alt="Сборка компьютеров в Москве" class="subsections-list-item__image">
+        <h3 class="subsections-list-item__title">Сборка компьютеров под заказ</h3>
+      </a>
+    
+  </div>
+  <div class="call-to-action">
+    <div class="call-to-action__icon-block call-to-action__icon-block_bg_second">
+        <svg class="call-to-action__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#phone"></use></svg>
+    </div>
+    <div class="call-to-action__content">
+        <h2 class="call-to-action__title">
+            
+                Звоните
+            
+        </h2>
+        <span class="call-to-action__phone">8 (495) 131-02-65</span>
+    </div>
+</div>
+</div>
     <footer class="footer">
   <div class="container">
       <div class="footer-block">
@@ -444,115 +524,115 @@
           
             
               <li>
-                <a class="change-city-link" href="https://moscow.scplex.ru/">Москва</a>
+                <a class="change-city-link" href="https://moscow.scplex.ru/services/help/">Москва</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://himki.scplex.ru/">Химки</a>
+                <a class="change-city-link" href="https://himki.scplex.ru/services/help/">Химки</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://dolgoprudnyi.scplex.ru/">Долгопрудный</a>
+                <a class="change-city-link" href="https://dolgoprudnyi.scplex.ru/services/help/">Долгопрудный</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://lobnia.scplex.ru/">Лобня</a>
+                <a class="change-city-link" href="https://lobnia.scplex.ru/services/help/">Лобня</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://mytishchi.scplex.ru/">Мытищи</a>
+                <a class="change-city-link" href="https://mytishchi.scplex.ru/services/help/">Мытищи</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://pushkino.scplex.ru/">Пушкино</a>
+                <a class="change-city-link" href="https://pushkino.scplex.ru/services/help/">Пушкино</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://korolev.scplex.ru/">Королев</a>
+                <a class="change-city-link" href="https://korolev.scplex.ru/services/help/">Королев</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://ivanteevka.scplex.ru/">Ивантеевка</a>
+                <a class="change-city-link" href="https://ivanteevka.scplex.ru/services/help/">Ивантеевка</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://shchelkovo.scplex.ru/">Щелково</a>
+                <a class="change-city-link" href="https://shchelkovo.scplex.ru/services/help/">Щелково</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://balashiha.scplex.ru/">Балашиха</a>
+                <a class="change-city-link" href="https://balashiha.scplex.ru/services/help/">Балашиха</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://reutov.scplex.ru/">Реутов</a>
+                <a class="change-city-link" href="https://reutov.scplex.ru/services/help/">Реутов</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://zheleznodorozhnyi.scplex.ru/">Железнодорожный</a>
+                <a class="change-city-link" href="https://zheleznodorozhnyi.scplex.ru/services/help/">Железнодорожный</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://lyubertcy.scplex.ru/">Люберцы</a>
+                <a class="change-city-link" href="https://lyubertcy.scplex.ru/services/help/">Люберцы</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://kotelniki.scplex.ru/">Котельники</a>
+                <a class="change-city-link" href="https://kotelniki.scplex.ru/services/help/">Котельники</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://dzerzhinskii.scplex.ru/">Дзержинский</a>
+                <a class="change-city-link" href="https://dzerzhinskii.scplex.ru/services/help/">Дзержинский</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://zhukovskii.scplex.ru/">Жуковский</a>
+                <a class="change-city-link" href="https://zhukovskii.scplex.ru/services/help/">Жуковский</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://vidnoe.scplex.ru/">Видное</a>
+                <a class="change-city-link" href="https://vidnoe.scplex.ru/services/help/">Видное</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://shcherbinka.scplex.ru/">Щербинка</a>
+                <a class="change-city-link" href="https://shcherbinka.scplex.ru/services/help/">Щербинка</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://podolsk.scplex.ru/">Подольск</a>
+                <a class="change-city-link" href="https://podolsk.scplex.ru/services/help/">Подольск</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://domodedovo.scplex.ru/">Домодево</a>
+                <a class="change-city-link" href="https://domodedovo.scplex.ru/services/help/">Домодево</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://odintcovo.scplex.ru/">Одинцово</a>
+                <a class="change-city-link" href="https://odintcovo.scplex.ru/services/help/">Одинцово</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://krasnogorsk.scplex.ru/">Красногорск</a>
+                <a class="change-city-link" href="https://krasnogorsk.scplex.ru/services/help/">Красногорск</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://dedovsk.scplex.ru/">Дедовск</a>
+                <a class="change-city-link" href="https://dedovsk.scplex.ru/services/help/">Дедовск</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://zelenograd.scplex.ru/">Зеленоград</a>
+                <a class="change-city-link" href="https://zelenograd.scplex.ru/services/help/">Зеленоград</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://istra.scplex.ru/">Истра</a>
+                <a class="change-city-link" href="https://istra.scplex.ru/services/help/">Истра</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://zvenigorod.scplex.ru/">Звенигород</a>
+                <a class="change-city-link" href="https://zvenigorod.scplex.ru/services/help/">Звенигород</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://novogorsk.scplex.ru/">Новогорск</a>
+                <a class="change-city-link" href="https://novogorsk.scplex.ru/services/help/">Новогорск</a>
               </li>
             
               <li>
-                <a class="change-city-link" href="https://shodnya.scplex.ru/">Сходня</a>
+                <a class="change-city-link" href="https://shodnya.scplex.ru/services/help/">Сходня</a>
               </li>
             
           
