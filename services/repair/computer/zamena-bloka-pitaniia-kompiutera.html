@@ -37,20 +37,70 @@
   
   
   <script>
-    var subdomainAlias = "moscow";
+    var subdomainAlias = "balashiha";
     var mainDomain = "scplex.ru";
     var domainsList = {
       
         "moscow":"Москва",
       
+        "himki":"Химки",
+      
         "dolgoprudnyi":"Долгопрудный",
       
+        "lobnia":"Лобня",
+      
+        "mytishchi":"Мытищи",
+      
+        "pushkino":"Пушкино",
+      
+        "korolev":"Королев",
+      
+        "ivanteevka":"Ивантеевка",
+      
+        "shchelkovo":"Щелково",
+      
         "balashiha":"Балашиха",
+      
+        "reutov":"Реутов",
+      
+        "zheleznodorozhnyi":"Железнодорожный",
+      
+        "lyubertcy":"Люберцы",
+      
+        "kotelniki":"Котельники",
+      
+        "dzerzhinskii":"Дзержинский",
+      
+        "zhukovskii":"Жуковский",
+      
+        "vidnoe":"Видное",
+      
+        "shcherbinka":"Щербинка",
+      
+        "podolsk":"Подольск",
+      
+        "domodedovo":"Домодево",
+      
+        "odintcovo":"Одинцово",
+      
+        "krasnogorsk":"Красногорск",
+      
+        "dedovsk":"Дедовск",
+      
+        "zelenograd":"Зеленоград",
+      
+        "istra":"Истра",
+      
+        "zvenigorod":"Звенигород",
+      
+        "novogorsk":"Новогорск",
+      
+        "shodnya":"Сходня",
       
     }
   </script>
 
-  <base href="https://moscow.scplex.ru" id="base-domain"/>
+  <base href="https://balashiha.scplex.ru" id="base-domain"/>
 </head>
   <body>
     <header class="header">
@@ -58,8 +108,8 @@
     <div class="container">
       <!-- Кнопка топ меню --> 
 <button class="header__top-menu-toggle top-menu-toggle collapsed" type="button" data-toggle="collapse" data-target="#top-menu-content" aria-controls="top-menu-content" aria-expanded="false" aria-label="Toggle top menu">
-  <svg class="top-menu-toggle__icon top-menu-toggle__icon_close"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#menu"></use></svg>
-  <svg class="top-menu-toggle__icon top-menu-toggle__icon_open"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#close"></use></svg>
+  <svg class="top-menu-toggle__icon top-menu-toggle__icon_close"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#menu"></use></svg>
+  <svg class="top-menu-toggle__icon top-menu-toggle__icon_open"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#close"></use></svg>
 </button>
 
 <!-- Топ меню --> 
@@ -120,13 +170,13 @@
       <ul class="header__top-panel top-panel">
   <li class="top-panel__item">
     <a href="#changeCity" class="top-panel__link" data-toggle="modal">
-      <svg class="top-panel__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#place"></use></svg>
-        <span class="top-panel__text" id="change-city-name">Москва</span>
+      <svg class="top-panel__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#place"></use></svg>
+        <span class="top-panel__text" id="change-city-name">Балашиха</span>
     </a>
   </li>
   <li class="top-panel__item">
     <a href="mailto:info@scplex.ru" class="top-panel__link">
-      <svg class="top-panel__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#mail"></use></svg>
+      <svg class="top-panel__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#mail"></use></svg>
         <span class="top-panel__text">
           info@scplex.ru
         </span>
@@ -134,7 +184,7 @@
   </li>
   <li class="top-panel__item">
     <a href="tel:84951310265" class="top-panel__link top-panel__link_phone">
-      <svg class="top-panel__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#phone"></use></svg>
+      <svg class="top-panel__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#phone"></use></svg>
         <span class="top-panel__text">
           8 (495) 131-02-65
         </span>
@@ -143,8 +193,8 @@
   <li class="top-panel__item">
     <a href="#" class="top-panel__link top-panel__link_search collapsed" data-toggle="collapse" data-target="#search" aria-controls="search"
       aria-expanded="false" aria-label="Панель поиска">
-      <svg class="top-panel__icon top-panel__icon_close"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#search"></use></svg>
-      <svg class="top-panel__icon top-panel__icon_open"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#close"></use></svg>
+      <svg class="top-panel__icon top-panel__icon_close"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#search"></use></svg>
+      <svg class="top-panel__icon top-panel__icon_open"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#close"></use></svg>
     </a>
   </li>
 </ul>
@@ -154,7 +204,7 @@
     <label class="search-form__label" for="query">Поиск по сайту</label>
     <div class="search-form__border-bottom"></div>
     <button class="search-form__submit" type="submit">
-      <svg class="search-form__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#search"></use></svg>
+      <svg class="search-form__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#search"></use></svg>
     </button>
   </form>
 </div>
@@ -164,7 +214,7 @@
     <div class="container">
       <div class="header__logo logo">
 
-  <a href="https://moscow.scplex.ru" class="logo__link">
+  <a href="https://balashiha.scplex.ru" class="logo__link">
     <img src="/assets/images/logo_plex.svg" alt="Компьютерный сервис Plex" class="logo__image" />
   </a>
 
@@ -185,7 +235,7 @@
           
         </a>
         <!-- <a href="#" class="menu-item__more-link">
-          <svg class="menu-item__more-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#arrow-down"></use></svg>
+          <svg class="menu-item__more-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#arrow-down"></use></svg>
         </a> -->
         <ul class="menu-item__second-menu second-menu dropdown-menu dropdown-menu-right fade">
           
@@ -211,7 +261,7 @@
           
         </a>
         <!-- <a href="#" class="menu-item__more-link">
-          <svg class="menu-item__more-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#arrow-down"></use></svg>
+          <svg class="menu-item__more-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#arrow-down"></use></svg>
         </a> -->
         <ul class="menu-item__second-menu second-menu dropdown-menu dropdown-menu-right fade">
           
@@ -249,7 +299,7 @@
           
         </a>
         <!-- <a href="#" class="menu-item__more-link">
-          <svg class="menu-item__more-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#arrow-down"></use></svg>
+          <svg class="menu-item__more-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#arrow-down"></use></svg>
         </a> -->
         <ul class="menu-item__second-menu second-menu dropdown-menu dropdown-menu-right fade">
           
@@ -279,7 +329,7 @@
           
         </a>
         <!-- <a href="#" class="menu-item__more-link">
-          <svg class="menu-item__more-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#arrow-down"></use></svg>
+          <svg class="menu-item__more-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#arrow-down"></use></svg>
         </a> -->
         <ul class="menu-item__second-menu second-menu dropdown-menu dropdown-menu-right fade">
           
@@ -314,7 +364,7 @@
     <ol class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
       <li class="breadcrumb__item">
         <a href="/" class="breadcrumb__link">
-          <svg class="breadcrumb__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#home"></use></svg>
+          <svg class="breadcrumb__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#home"></use></svg>
         </a>
       </li>
     
@@ -345,7 +395,7 @@
   </div>
 
       <a href="/services/order/" class="header__action-button action-button">
-    <svg class="action-button__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#car"></use></svg>
+    <svg class="action-button__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#car"></use></svg>
     <span class="action-button__text">Вызвать мастера</span>
 </a>
     </div>
@@ -359,7 +409,7 @@
 <h1 class="main-title" itemprop="name">
   Замена блока питания компьютера
   
-    <small class="main-title__small">в Москве</small>
+    <small class="main-title__small">в Балашихе</small>
   
 </h1>
 
@@ -367,7 +417,7 @@
   </div>
 
   <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-    <meta itemprop="name" content="Москва" />
+    <meta itemprop="name" content="Балашиха" />
     <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
       <meta itemprop="streetAddress" content=""/>
       <meta itemprop="telephone" content="84956234567"/>
@@ -402,7 +452,7 @@
     </div>
     <div class="call-to-action">
     <div class="call-to-action__icon-block call-to-action__icon-block_bg_second">
-        <svg class="call-to-action__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#phone"></use></svg>
+        <svg class="call-to-action__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#phone"></use></svg>
     </div>
     <div class="call-to-action__content">
         <h2 class="call-to-action__title">
@@ -503,7 +553,7 @@
     <div class="container">
       <div class="call-to-action">
     <div class="call-to-action__icon-block call-to-action__icon-block_bg_accent">
-        <svg class="call-to-action__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://moscow.scplex.ru/assets/icons/icons-sprite.svg#car"></use></svg>
+        <svg class="call-to-action__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://balashiha.scplex.ru/assets/icons/icons-sprite.svg#car"></use></svg>
     </div>
     <div class="call-to-action__content">
         <h2 class="call-to-action__title">Закажите выезд мастера</h2>
@@ -522,16 +572,16 @@
       <div class="other-services__list owl-carousel owl-theme">
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="0"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/diagnostika-neispravnostei-kompiutera.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_diagnostika-neispravnostei-kompiutera.jpg" alt="Диагностика неисправностей компьютера в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_diagnostika-neispravnostei-kompiutera.jpg" alt="Диагностика неисправностей компьютера в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/diagnostika-neispravnostei-kompiutera.html" class="posts-list-item__title">Диагностика неисправностей компьютера</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -541,16 +591,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="1"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/chistka-ot-pyli-sistemnogo-bloka.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_chistka-ot-pyli-sistemnogo-bloka.jpg" alt="Чистка от пыли системного блока в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_chistka-ot-pyli-sistemnogo-bloka.jpg" alt="Чистка от пыли системного блока в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/chistka-ot-pyli-sistemnogo-bloka.html" class="posts-list-item__title">Чистка от пыли системного блока</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -560,16 +610,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="2"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-termopasty-na-protcessore.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-termopasty-na-protcessore.jpg" alt="Замена термопасты на процессоре в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-termopasty-na-protcessore.jpg" alt="Замена термопасты на процессоре в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-termopasty-na-protcessore.html" class="posts-list-item__title">Замена термопасты на процессоре</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -579,16 +629,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="3"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-korpusa-kompiutera.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-korpusa-kompiutera.jpg" alt="Замена корпуса компьютера в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-korpusa-kompiutera.jpg" alt="Замена корпуса компьютера в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-korpusa-kompiutera.html" class="posts-list-item__title">Замена корпуса компьютера</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -598,16 +648,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="4"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-kulera-protcessora.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-kulera-protcessora.jpg" alt="Замена кулера процессора в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-kulera-protcessora.jpg" alt="Замена кулера процессора в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-kulera-protcessora.html" class="posts-list-item__title">Замена кулера процессора</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -617,16 +667,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="5"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/ustanovka-vodianogo-okhlazhdeniia.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_ustanovka-vodianogo-okhlazhdeniia.jpg" alt="Установка водяного охлаждения в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_ustanovka-vodianogo-okhlazhdeniia.jpg" alt="Установка водяного охлаждения в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/ustanovka-vodianogo-okhlazhdeniia.html" class="posts-list-item__title">Установка водяного охлаждения</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -636,16 +686,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="6"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-materinskoi-platy-kompiutera.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-materinskoi-platy-kompiutera.jpg" alt="Замена материнской платы компьютера в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-materinskoi-platy-kompiutera.jpg" alt="Замена материнской платы компьютера в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-materinskoi-platy-kompiutera.html" class="posts-list-item__title">Замена материнской платы компьютера</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -655,16 +705,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="7"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-videokarty-kompiutera.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-videokarty-kompiutera.jpg" alt="Замена видеокарты компьютера в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-videokarty-kompiutera.jpg" alt="Замена видеокарты компьютера в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-videokarty-kompiutera.html" class="posts-list-item__title">Замена видеокарты компьютера</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -674,16 +724,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="8"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-ili-dobavlenie-operativnoi-pamiati.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-ili-dobavlenie-operativnoi-pamiati.jpg" alt="Замена или добавление оперативной памяти в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-ili-dobavlenie-operativnoi-pamiati.jpg" alt="Замена или добавление оперативной памяти в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-ili-dobavlenie-operativnoi-pamiati.html" class="posts-list-item__title">Замена или добавление оперативной памяти</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -693,16 +743,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="9"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-zhestkogo-diska-kompiutera.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-zhestkogo-diska-kompiutera.jpg" alt="Замена жесткого диска компьютера в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-zhestkogo-diska-kompiutera.jpg" alt="Замена жесткого диска компьютера в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-zhestkogo-diska-kompiutera.html" class="posts-list-item__title">Замена жесткого диска компьютера</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -712,16 +762,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="10"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/ustanovka-ssd-diska.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_ustanovka-ssd-diska.jpg" alt="Установка SSD-диска в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_ustanovka-ssd-diska.jpg" alt="Установка SSD-диска в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/ustanovka-ssd-diska.html" class="posts-list-item__title">Установка SSD-диска</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -731,16 +781,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="11"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-protcessora-kompiutera.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-protcessora-kompiutera.jpg" alt="Замена процессора компьютера в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-protcessora-kompiutera.jpg" alt="Замена процессора компьютера в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-protcessora-kompiutera.html" class="posts-list-item__title">Замена процессора компьютера</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -750,16 +800,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="12"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-setevoi-karty-kompiutera.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-setevoi-karty-kompiutera.jpg" alt="Замена сетевой карты компьютера в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-setevoi-karty-kompiutera.jpg" alt="Замена сетевой карты компьютера в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-setevoi-karty-kompiutera.html" class="posts-list-item__title">Замена сетевой карты компьютера</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -769,16 +819,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="13"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-batareiki-biosa.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-batareiki-biosa.jpg" alt="Замена батарейки БИОСа в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-batareiki-biosa.jpg" alt="Замена батарейки БИОСа в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-batareiki-biosa.html" class="posts-list-item__title">Замена батарейки БИОСа</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -788,16 +838,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="14"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-opticheskogo-privoda.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-opticheskogo-privoda.jpg" alt="Замена оптического привода в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-opticheskogo-privoda.jpg" alt="Замена оптического привода в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-opticheskogo-privoda.html" class="posts-list-item__title">Замена оптического привода</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -807,16 +857,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="15"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/pereproshivka-biosa-materinskoi-platy.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_pereproshivka-biosa-materinskoi-platy.jpg" alt="Перепрошивка БИОСа материнской платы в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_pereproshivka-biosa-materinskoi-platy.jpg" alt="Перепрошивка БИОСа материнской платы в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/pereproshivka-biosa-materinskoi-platy.html" class="posts-list-item__title">Перепрошивка БИОСа материнской платы</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -826,16 +876,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="16"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-kondensatorov-materinskoi-platy.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-kondensatorov-materinskoi-platy.jpg" alt="Замена конденсаторов материнской платы в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-kondensatorov-materinskoi-platy.jpg" alt="Замена конденсаторов материнской платы в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-kondensatorov-materinskoi-platy.html" class="posts-list-item__title">Замена конденсаторов материнской платы</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -845,16 +895,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="17"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/remont-bloka-pitaniia.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_remont-bloka-pitaniia.jpg" alt="Ремонт блока питания в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_remont-bloka-pitaniia.jpg" alt="Ремонт блока питания в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/remont-bloka-pitaniia.html" class="posts-list-item__title">Ремонт блока питания</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -864,16 +914,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="18"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/zamena-razemov-perednei-paneli.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-razemov-perednei-paneli.jpg" alt="Замена разъемов передней панели в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_zamena-razemov-perednei-paneli.jpg" alt="Замена разъемов передней панели в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/zamena-razemov-perednei-paneli.html" class="posts-list-item__title">Замена разъемов передней панели</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -883,16 +933,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="19"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/ustanovka-kartridera.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_ustanovka-kartridera.jpg" alt="Установка картридера в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_ustanovka-kartridera.jpg" alt="Установка картридера в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/ustanovka-kartridera.html" class="posts-list-item__title">Установка картридера</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -902,16 +952,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="20"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/podcliuchenie-perednei-paneli.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_podcliuchenie-perednei-paneli.jpg" alt="Подключение передней панели в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_podcliuchenie-perednei-paneli.jpg" alt="Подключение передней панели в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/podcliuchenie-perednei-paneli.html" class="posts-list-item__title">Подключение передней панели</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -921,16 +971,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="21"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/ustanovka-dopolnitelnoi-perednei-paneli.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_ustanovka-dopolnitelnoi-perednei-paneli.jpg" alt="Установка дополнительной передней панели в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_ustanovka-dopolnitelnoi-perednei-paneli.jpg" alt="Установка дополнительной передней панели в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/ustanovka-dopolnitelnoi-perednei-paneli.html" class="posts-list-item__title">Установка дополнительной передней панели</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -940,16 +990,16 @@
             </div>
           
             <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <meta itemprop="name" content=" в Москве"/>
+              <meta itemprop="name" content=" в Балашихе"/>
               <meta itemprop="position" content="22"/>
               <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
                 <a href="/services/repair/computer/podcliuchenie-dopolnitelnogo-zhestkogo-diska.html" class="posts-list-item__image-link" itemprop="url">
-                  <img src="/assets/images/upload/services/repair/computer/thumb_podcliuchenie-dopolnitelnogo-zhestkogo-diska.jpg" alt="Подключение дополнительного жесткого диска в Москве" class="posts-list-item__image" itemprop="image"/>
+                  <img src="/assets/images/upload/services/repair/computer/thumb_podcliuchenie-dopolnitelnogo-zhestkogo-diska.jpg" alt="Подключение дополнительного жесткого диска в Балашихе" class="posts-list-item__image" itemprop="image"/>
                 </a>
                 <span class="posts-list-item__price">от 1300 руб.</span>
                 <a href="/services/repair/computer/podcliuchenie-dopolnitelnogo-zhestkogo-diska.html" class="posts-list-item__title">Подключение дополнительного жесткого диска</a>
                 <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                  <meta itemprop="name" content="Москва" />
+                  <meta itemprop="name" content="Балашиха" />
                   <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                     <meta itemprop="streetAddress" content=""/>
                     <meta itemprop="telephone" content="84956234567"/>
@@ -1030,11 +1080,111 @@
               </li>
             
               <li>
+                <a class="change-city-link" href="https://himki.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Химки</a>
+              </li>
+            
+              <li>
                 <a class="change-city-link" href="https://dolgoprudnyi.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Долгопрудный</a>
               </li>
             
               <li>
+                <a class="change-city-link" href="https://lobnia.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Лобня</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://mytishchi.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Мытищи</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://pushkino.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Пушкино</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://korolev.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Королев</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://ivanteevka.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Ивантеевка</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://shchelkovo.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Щелково</a>
+              </li>
+            
+              <li>
                 <a class="change-city-link" href="https://balashiha.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Балашиха</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://reutov.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Реутов</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://zheleznodorozhnyi.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Железнодорожный</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://lyubertcy.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Люберцы</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://kotelniki.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Котельники</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://dzerzhinskii.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Дзержинский</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://zhukovskii.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Жуковский</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://vidnoe.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Видное</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://shcherbinka.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Щербинка</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://podolsk.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Подольск</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://domodedovo.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Домодево</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://odintcovo.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Одинцово</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://krasnogorsk.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Красногорск</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://dedovsk.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Дедовск</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://zelenograd.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Зеленоград</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://istra.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Истра</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://zvenigorod.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Звенигород</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://novogorsk.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Новогорск</a>
+              </li>
+            
+              <li>
+                <a class="change-city-link" href="https://shodnya.scplex.ru/services/repair/computer/zamena-bloka-pitaniia-kompiutera.html">Сходня</a>
               </li>
             
           
