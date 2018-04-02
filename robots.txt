@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://vidnoe.scplex.ru/sitemap.xml
+Sitemap: http://zelenograd.scplex.ru/sitemap.xml
