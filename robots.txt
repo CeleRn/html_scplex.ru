@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://podolsk.scplex.ru/sitemap.xml
+Sitemap: http://pushkino.scplex.ru/sitemap.xml
