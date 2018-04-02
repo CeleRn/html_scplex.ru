@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://scplex.ru/sitemap.xml
+Sitemap: http://moscow.scplex.ru/sitemap.xml
