@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://krasnogorsk.scplex.ru/sitemap.xml
+Sitemap: http://lobnia.scplex.ru/sitemap.xml
