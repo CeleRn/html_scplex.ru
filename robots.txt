@@ -1,1 +1,2 @@
 User-agent: *
+Sitemap: http://balashiha.scplex.ru/sitemap.xml
