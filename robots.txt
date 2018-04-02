@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://dzerzhinskii.scplex.ru/sitemap.xml
+Sitemap: http://himki.scplex.ru/sitemap.xml
