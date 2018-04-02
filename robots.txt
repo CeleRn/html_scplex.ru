@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://dolgoprudnyi.scplex.ru/sitemap.xml
+Sitemap: http://domodedovo.scplex.ru/sitemap.xml
