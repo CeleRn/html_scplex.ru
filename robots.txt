@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://shodnya.scplex.ru/sitemap.xml
+Sitemap: http://tomilino.scplex.ru/sitemap.xml
