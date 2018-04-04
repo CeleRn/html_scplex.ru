@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://vlasiha.scplex.ru/sitemap.xml
+Sitemap: http://voskresenskoe.scplex.ru/sitemap.xml
