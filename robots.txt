@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://lytkarino.scplex.ru/sitemap.xml
+Sitemap: http://lyubertcy.scplex.ru/sitemap.xml
