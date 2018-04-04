@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://veshki.scplex.ru/sitemap.xml
+Sitemap: http://vidnoe.scplex.ru/sitemap.xml
