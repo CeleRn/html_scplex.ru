@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://zhukovskii.scplex.ru/sitemap.xml
+Sitemap: http://zvenigorod.scplex.ru/sitemap.xml
