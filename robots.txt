@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://cliazma.scplex.ru/sitemap.xml
+Sitemap: http://dedovsk.scplex.ru/sitemap.xml
