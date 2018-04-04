@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://putilkovo.scplex.ru/sitemap.xml
+Sitemap: http://rastorguevo.scplex.ru/sitemap.xml
