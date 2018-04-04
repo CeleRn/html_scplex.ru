@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://petrovo-dalnee.scplex.ru/sitemap.xml
+Sitemap: http://pirogovo.scplex.ru/sitemap.xml
