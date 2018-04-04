@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://pushkino.scplex.ru/sitemap.xml
+Sitemap: http://putilkovo.scplex.ru/sitemap.xml
