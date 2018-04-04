@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://nahabino.scplex.ru/sitemap.xml
+Sitemap: http://novogorsk.scplex.ru/sitemap.xml
