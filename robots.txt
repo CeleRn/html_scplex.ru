@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://malahovka.scplex.ru/sitemap.xml
+Sitemap: http://scplex.ru/sitemap.xml
