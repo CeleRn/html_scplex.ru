@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://pirogovo.scplex.ru/sitemap.xml
+Sitemap: http://podolsk.scplex.ru/sitemap.xml
