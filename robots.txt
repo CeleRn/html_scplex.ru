@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://barviha.scplex.ru/sitemap.xml
+Sitemap: http://butovo.scplex.ru/sitemap.xml
