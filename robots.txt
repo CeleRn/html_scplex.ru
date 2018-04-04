@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://troitck.scplex.ru/sitemap.xml
+Sitemap: http://veshki.scplex.ru/sitemap.xml
