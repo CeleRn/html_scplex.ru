@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://shcherbinka.scplex.ru/sitemap.xml
+Sitemap: http://shodnya.scplex.ru/sitemap.xml
