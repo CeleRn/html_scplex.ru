@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://lobnia.scplex.ru/sitemap.xml
+Sitemap: http://lytkarino.scplex.ru/sitemap.xml
