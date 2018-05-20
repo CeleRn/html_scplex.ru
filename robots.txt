@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://istra.scplex.ru/sitemap.xml
+Sitemap: https://cliazma.scplex.ru/sitemap.xml
