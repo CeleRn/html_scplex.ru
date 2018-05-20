@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://kurkino.scplex.ru/sitemap.xml
+Sitemap: https://lobnia.scplex.ru/sitemap.xml
