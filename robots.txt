@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://ivanteevka.scplex.ru/sitemap.xml
+Sitemap: https://ilinskoe.scplex.ru/sitemap.xml
