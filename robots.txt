@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://butovo.scplex.ru/sitemap.xml
+Sitemap: https://veshki.scplex.ru/sitemap.xml
