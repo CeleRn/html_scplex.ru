@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://kotelniki.scplex.ru/sitemap.xml
+Sitemap: https://kraskovo.scplex.ru/sitemap.xml
