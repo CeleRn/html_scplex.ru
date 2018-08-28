@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://lyubertcy.scplex.ru/sitemap.xml
+Sitemap: https://malahovka.scplex.ru/sitemap.xml
