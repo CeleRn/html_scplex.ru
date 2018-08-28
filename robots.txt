@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://zhukovskii.scplex.ru/sitemap.xml
+Sitemap: https://zelenograd.scplex.ru/sitemap.xml
