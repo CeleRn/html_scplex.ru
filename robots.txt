@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://himki.scplex.ru/sitemap.xml
+Sitemap: https://shchelkovo.scplex.ru/sitemap.xml
