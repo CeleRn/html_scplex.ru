@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://odintcovo.scplex.ru/sitemap.xml
+Sitemap: https://opaliha.scplex.ru/sitemap.xml
