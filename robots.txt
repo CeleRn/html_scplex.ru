@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://voskresenskoe.scplex.ru/sitemap.xml
+Sitemap: https://dedovsk.scplex.ru/sitemap.xml
