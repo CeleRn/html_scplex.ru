@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://mytishchi.scplex.ru/sitemap.xml
+Sitemap: https://nahabino.scplex.ru/sitemap.xml
