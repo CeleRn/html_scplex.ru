@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://krasnogorsk.scplex.ru/sitemap.xml
+Sitemap: https://kurkino.scplex.ru/sitemap.xml
