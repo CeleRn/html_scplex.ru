@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://troitck.scplex.ru/sitemap.xml
+Sitemap: https://himki.scplex.ru/sitemap.xml
