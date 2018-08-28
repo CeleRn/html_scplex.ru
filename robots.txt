@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://scplex.ru/sitemap.xml
+Sitemap: https://aparinki.scplex.ru/sitemap.xml
