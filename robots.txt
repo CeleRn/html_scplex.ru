@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://rublevo.scplex.ru/sitemap.xml
+Sitemap: https://saltykovka.scplex.ru/sitemap.xml
