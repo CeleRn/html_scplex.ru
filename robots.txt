@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://novogorsk.scplex.ru/sitemap.xml
+Sitemap: https://odintcovo.scplex.ru/sitemap.xml
