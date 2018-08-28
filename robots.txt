@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://opaliha.scplex.ru/sitemap.xml
+Sitemap: https://petrovo-dalnee.scplex.ru/sitemap.xml
