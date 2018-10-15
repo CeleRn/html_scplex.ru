@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://tomilino.scplex.ru/sitemap.xml
+Sitemap: https://troitck.scplex.ru/sitemap.xml
