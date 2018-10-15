@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://balashiha.scplex.ru/sitemap.xml
+Sitemap: https://barviha.scplex.ru/sitemap.xml
